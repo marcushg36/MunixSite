@@ -1,0 +1,36 @@
+{
+  "name": "munix_site",
+  "version": "1.0.0",
+  "description": "Will be a collection of information that I have gathered over the couple years about scripting, development, and servers.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --hot --host munix.tech",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcushg36/MunixSite.git"
+  },
+  "author": "Marcus Hancock-Gaillard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcushg36/MunixSite/issues"
+  },
+  "homepage": "https://github.com/marcushg36/MunixSite#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  }
+}
